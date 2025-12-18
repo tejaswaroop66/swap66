@@ -9,10 +9,14 @@ on:
 jobs:
   run-python:
     runs-on: ubuntu-latest
+steps:
+  - name: Step one
+    run: echo "YAML indentation is clear"
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+  - name: Step two
+    run: echo "I can write GitHub Actions YAML"
+
+ 
 
       - name: Set up Python
         uses: actions/setup-python@v5
