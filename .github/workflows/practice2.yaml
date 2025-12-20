@@ -5,6 +5,6 @@ jobs:
   deploy:
     run-on: ubuntu-latest
       steps:
-        - run: echo "deploy 500 gb harddisk"
-        - run: echo "deploy 24gb ram"
+        - run: echo "deploy five hundred gb harddisk"
+        - run: echo "deploy twenty four gb ram"
         - run: echo "deploy hundred ec2 instances"
