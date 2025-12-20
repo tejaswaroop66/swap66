@@ -3,7 +3,7 @@ on:
   push
 jobs:
   build:
-    runson: ubuntu-latest
+    runs-on: ubuntu-latest
       steps:
         run: echo "this is first file"
         run: echo "this is second file"
