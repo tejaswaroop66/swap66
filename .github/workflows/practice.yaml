@@ -1,10 +1,11 @@
 name: practice day of yml
 on: 
-  push
+  push:
 jobs:
   build:
     runs-on: ubuntu-latest
-      steps:
-        run: echo "this is first file"
-        run: echo "this is second file"
-        run: echo "this is third file"
+    steps:
+        
+      - run: echo "this is first file"
+      - run: echo "this is second file"
+      - run: echo "this is third file"
