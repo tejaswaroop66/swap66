@@ -1,0 +1,10 @@
+name: deploying ec2 instances
+on:
+  push:
+jobs:
+  deploy:
+    run-on: ubuntu-latest
+      steps:
+        - run: echo "deploy five hundred gb harddisk"
+        - run: echo "deploy twenty four gb ram"
+        - run: echo "deploy hundred ec2 instances"
