@@ -3,11 +3,11 @@ on:
   push:
 jobs:
   test:
-    runs-on ubuntu-latest:
+    runs-on: ubuntu-latest
     steps:
-      - run echo"1"
-      - run echo"2"
-      - run echo"3"
-      - run echo"4"
+      - run: echo"1"
+      - run: echo"2"
+      - run: echo "3"
+      - run: echo"4"
     
   
