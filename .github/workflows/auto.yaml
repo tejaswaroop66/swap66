@@ -1,0 +1,9 @@
+name: auto running the code
+on:
+  push:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "this is automated script"
+      
