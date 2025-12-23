@@ -1,8 +1,0 @@
-name = my first practice
-on:
-  push
-jobs:
-  test:
-    runs-on ubuntu-latest
-    steps:
-      - run echo "1 ,2, 3, 4"
